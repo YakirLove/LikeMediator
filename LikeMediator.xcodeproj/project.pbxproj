@@ -13,9 +13,11 @@
 		31CFF77B1F70FE1000B885FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31CFF7791F70FE1000B885FB /* Main.storyboard */; };
 		31CFF77D1F70FE1000B885FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31CFF77C1F70FE1000B885FB /* Assets.xcassets */; };
 		31CFF7801F70FE1000B885FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31CFF77E1F70FE1000B885FB /* LaunchScreen.storyboard */; };
+		F0296F7315A9A3DFFC6B8319 /* libPods-LikeMediator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA3007861E909FE3BE60E13 /* libPods-LikeMediator.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2EA3007861E909FE3BE60E13 /* libPods-LikeMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LikeMediator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31CFF76D1F70FE1000B885FB /* LikeMediator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LikeMediator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31CFF7711F70FE1000B885FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		31CFF7731F70FE1000B885FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		31CFF77C1F70FE1000B885FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31CFF77F1F70FE1000B885FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31CFF7811F70FE1000B885FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE41ABEDA5C25113AEB0B4D6 /* Pods-LikeMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LikeMediator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LikeMediator/Pods-LikeMediator.debug.xcconfig"; sourceTree = "<group>"; };
+		CFA188552C998DE8130E5D39 /* Pods-LikeMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LikeMediator.release.xcconfig"; path = "Pods/Target Support Files/Pods-LikeMediator/Pods-LikeMediator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0296F7315A9A3DFFC6B8319 /* libPods-LikeMediator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				31CFF76F1F70FE1000B885FB /* LikeMediator */,
 				31CFF76E1F70FE1000B885FB /* Products */,
+				3D257B8F3EE37AA61EA708B2 /* Pods */,
+				4C6078CA3C19B43F8D6E550A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +86,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3D257B8F3EE37AA61EA708B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE41ABEDA5C25113AEB0B4D6 /* Pods-LikeMediator.debug.xcconfig */,
+				CFA188552C998DE8130E5D39 /* Pods-LikeMediator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4C6078CA3C19B43F8D6E550A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EA3007861E909FE3BE60E13 /* libPods-LikeMediator.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31CFF7841F70FE1000B885FB /* Build configuration list for PBXNativeTarget "LikeMediator" */;
 			buildPhases = (
+				6A86094ECC27C1F7E5227FC1 /* [CP] Check Pods Manifest.lock */,
 				31CFF7691F70FE1000B885FB /* Sources */,
 				31CFF76A1F70FE1000B885FB /* Frameworks */,
 				31CFF76B1F70FE1000B885FB /* Resources */,
+				6E598C0D63350112BA80824B /* [CP] Embed Pods Frameworks */,
+				E3582723D4526848D22781EB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,6 +172,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A86094ECC27C1F7E5227FC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LikeMediator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E598C0D63350112BA80824B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LikeMediator/Pods-LikeMediator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3582723D4526848D22781EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LikeMediator/Pods-LikeMediator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		31CFF7691F70FE1000B885FB /* Sources */ = {
@@ -271,6 +349,7 @@
 		};
 		31CFF7851F70FE1000B885FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE41ABEDA5C25113AEB0B4D6 /* Pods-LikeMediator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5S3BFGRC75;
@@ -283,6 +362,7 @@
 		};
 		31CFF7861F70FE1000B885FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFA188552C998DE8130E5D39 /* Pods-LikeMediator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5S3BFGRC75;
