@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  LikeMediator
+//  Text
 //
-//  Created by wyj on 2017/9/19.
+//  Created by wyj on 2017/9/25.
 //  Copyright © 2017年 wyj. All rights reserved.
 //
 
@@ -46,5 +46,6 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
 
 @end

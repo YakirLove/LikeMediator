@@ -67,7 +67,7 @@
 {
     
     NSString *targetClassString = [NSString stringWithFormat:@"Target_%@", targetName];
-    NSString *actionString = [NSString stringWithFormat:@"Action_%@:", actionName];
+    NSString *actionString = [NSString stringWithFormat:@"action_%@:", actionName];
     Class targetClass;
     
     NSObject *target = self.cachedTarget[targetClassString];

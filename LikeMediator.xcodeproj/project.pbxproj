@@ -13,6 +13,12 @@
 		31CFF77B1F70FE1000B885FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31CFF7791F70FE1000B885FB /* Main.storyboard */; };
 		31CFF77D1F70FE1000B885FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31CFF77C1F70FE1000B885FB /* Assets.xcassets */; };
 		31CFF7801F70FE1000B885FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31CFF77E1F70FE1000B885FB /* LaunchScreen.storyboard */; };
+		31CFF78C1F7119E900B885FB /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CFF78A1F7119E900B885FB /* CTMediator.m */; };
+		31CFF7921F71205A00B885FB /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CFF7911F71205A00B885FB /* FirstViewController.m */; };
+		31CFF7951F71206500B885FB /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CFF7941F71206500B885FB /* SecondViewController.m */; };
+		31CFF7981F71206D00B885FB /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CFF7971F71206D00B885FB /* ThirdViewController.m */; };
+		31CFF79C1F71229300B885FB /* Target_Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CFF79B1F71229300B885FB /* Target_Login.m */; };
+		31CFF7A31F71240500B885FB /* CTMediator+CV.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CFF7A21F71240500B885FB /* CTMediator+CV.m */; };
 		F0296F7315A9A3DFFC6B8319 /* libPods-LikeMediator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA3007861E909FE3BE60E13 /* libPods-LikeMediator.a */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +34,20 @@
 		31CFF77C1F70FE1000B885FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31CFF77F1F70FE1000B885FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31CFF7811F70FE1000B885FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31CFF7891F7119E900B885FB /* CTMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
+		31CFF78A1F7119E900B885FB /* CTMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMediator.m; sourceTree = "<group>"; };
+		31CFF7901F71205A00B885FB /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = SOURCE_ROOT; };
+		31CFF7911F71205A00B885FB /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = SOURCE_ROOT; };
+		31CFF7931F71206500B885FB /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		31CFF7941F71206500B885FB /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		31CFF7961F71206D00B885FB /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		31CFF7971F71206D00B885FB /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		31CFF79A1F71229300B885FB /* Target_Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_Login.h; sourceTree = "<group>"; };
+		31CFF79B1F71229300B885FB /* Target_Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_Login.m; sourceTree = "<group>"; };
+		31CFF7A11F71240500B885FB /* CTMediator+CV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+CV.h"; sourceTree = "<group>"; };
+		31CFF7A21F71240500B885FB /* CTMediator+CV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+CV.m"; sourceTree = "<group>"; };
+		31CFF7A41F713A4D00B885FB /* LikeMediator.PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LikeMediator.PrefixHeader.pch; sourceTree = "<group>"; };
+		31CFF7A51F713A8900B885FB /* CommonHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonHead.h; sourceTree = "<group>"; };
 		BE41ABEDA5C25113AEB0B4D6 /* Pods-LikeMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LikeMediator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LikeMediator/Pods-LikeMediator.debug.xcconfig"; sourceTree = "<group>"; };
 		CFA188552C998DE8130E5D39 /* Pods-LikeMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LikeMediator.release.xcconfig"; path = "Pods/Target Support Files/Pods-LikeMediator/Pods-LikeMediator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +85,9 @@
 		31CFF76F1F70FE1000B885FB /* LikeMediator */ = {
 			isa = PBXGroup;
 			children = (
+				31CFF7871F7119E900B885FB /* Class */,
+				31CFF7881F7119E900B885FB /* Router */,
+				31CFF78B1F7119E900B885FB /* Utility */,
 				31CFF7731F70FE1000B885FB /* AppDelegate.h */,
 				31CFF7741F70FE1000B885FB /* AppDelegate.m */,
 				31CFF7761F70FE1000B885FB /* ViewController.h */,
@@ -82,8 +105,83 @@
 			isa = PBXGroup;
 			children = (
 				31CFF7711F70FE1000B885FB /* main.m */,
+				31CFF7A41F713A4D00B885FB /* LikeMediator.PrefixHeader.pch */,
+				31CFF7A51F713A8900B885FB /* CommonHead.h */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31CFF7871F7119E900B885FB /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				31CFF78D1F711A3500B885FB /* Third */,
+				31CFF78E1F711A3500B885FB /* Second */,
+				31CFF78F1F711A3500B885FB /* First */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		31CFF7881F7119E900B885FB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				31CFF79D1F71232F00B885FB /* Category */,
+				31CFF7991F71221E00B885FB /* Target */,
+				31CFF7891F7119E900B885FB /* CTMediator.h */,
+				31CFF78A1F7119E900B885FB /* CTMediator.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		31CFF78B1F7119E900B885FB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		31CFF78D1F711A3500B885FB /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				31CFF7961F71206D00B885FB /* ThirdViewController.h */,
+				31CFF7971F71206D00B885FB /* ThirdViewController.m */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		31CFF78E1F711A3500B885FB /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				31CFF7931F71206500B885FB /* SecondViewController.h */,
+				31CFF7941F71206500B885FB /* SecondViewController.m */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		31CFF78F1F711A3500B885FB /* First */ = {
+			isa = PBXGroup;
+			children = (
+				31CFF7901F71205A00B885FB /* FirstViewController.h */,
+				31CFF7911F71205A00B885FB /* FirstViewController.m */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		31CFF7991F71221E00B885FB /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				31CFF79A1F71229300B885FB /* Target_Login.h */,
+				31CFF79B1F71229300B885FB /* Target_Login.m */,
+			);
+			path = Target;
+			sourceTree = "<group>";
+		};
+		31CFF79D1F71232F00B885FB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				31CFF7A11F71240500B885FB /* CTMediator+CV.h */,
+				31CFF7A21F71240500B885FB /* CTMediator+CV.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		3D257B8F3EE37AA61EA708B2 /* Pods */ = {
@@ -229,9 +327,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31CFF7951F71206500B885FB /* SecondViewController.m in Sources */,
 				31CFF7781F70FE1000B885FB /* ViewController.m in Sources */,
+				31CFF7A31F71240500B885FB /* CTMediator+CV.m in Sources */,
+				31CFF79C1F71229300B885FB /* Target_Login.m in Sources */,
 				31CFF7751F70FE1000B885FB /* AppDelegate.m in Sources */,
+				31CFF7921F71205A00B885FB /* FirstViewController.m in Sources */,
 				31CFF7721F70FE1000B885FB /* main.m in Sources */,
+				31CFF78C1F7119E900B885FB /* CTMediator.m in Sources */,
+				31CFF7981F71206D00B885FB /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -340,7 +444,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -353,7 +457,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5S3BFGRC75;
+				GCC_PREFIX_HEADER = LikeMediator/LikeMediator.PrefixHeader.pch;
 				INFOPLIST_FILE = LikeMediator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = aa.LikeMediator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -366,7 +472,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5S3BFGRC75;
+				GCC_PREFIX_HEADER = LikeMediator/LikeMediator.PrefixHeader.pch;
 				INFOPLIST_FILE = LikeMediator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = aa.LikeMediator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -392,6 +500,7 @@
 				31CFF7861F70FE1000B885FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -13,3 +13,10 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
 #endif /* LikeMediator_PrefixHeader_pch */
+
+#ifdef __OBJC__
+
+#import "CommonHead.h"
+
+#endif
+

@@ -10,4 +10,8 @@
 
 @interface CTMediator (CV)
 
+- (UIViewController *)first_viewController;
+- (UIViewController *)second_viewController:(NSString *)string;
+- (UIViewController *)third_viewController:(UIImage *)image;
+
 @end

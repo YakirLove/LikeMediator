@@ -8,9 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Target_First : NSObject
+@interface Target_Login : NSObject
 
+/**
+ *  打开firstviewcontroller
+ *
+ *  @param params 无参数
+ *
+ *  @return firstviewcontroller
+ */
 - (UIViewController *)action_firstviewController:(NSDictionary *)params;
 
 
+- (UIViewController *)action_secondviewController:(NSDictionary *)params;
+
+
+
+- (UIViewController *)action_thirdviewController:(NSDictionary *)params;
 @end

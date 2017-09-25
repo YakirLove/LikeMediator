@@ -1,3 +1,6 @@
+platform :ios, '8.0'
+
 target 'LikeMediator' do
-pod 'CTMediator', '~> 12'
+
+
 end

@@ -6,8 +6,5 @@
 //  Copyright © 2017年 wyj. All rights reserved.
 //
 
-#ifndef CommonHead_h
-#define CommonHead_h
 
-
-#endif /* CommonHead_h */
+#import "CTMediator+CV.h"

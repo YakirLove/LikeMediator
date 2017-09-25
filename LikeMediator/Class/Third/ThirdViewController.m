@@ -14,9 +14,38 @@
 
 @implementation ThirdViewController
 
+-(id)initWithImage:(UIImage *)image;
+{
+    self = [super init];
+    if(self)
+    {
+        [self addImageView:image];
+    }
+    return self;
+}
+
+-(void)addImageView:(UIImage *)image
+{
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+    imageView.frame = CGRectMake(100, 200, 100, 200);
+    [self.view addSubview:imageView];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.title = @"ThirdViewController";
+    
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 50)];
+    [button setTitle:@"first" forState:UIControlStateNormal];
+    [self.view addSubview:button];
+    [button addTarget:self action:@selector(FirstTouch:) forControlEvents:UIControlEventTouchUpInside];
+}
+
+-(void)FirstTouch:(UIButton *)button
+{
+    UIViewController *controller = [[CTMediator sharedInstance] first_viewController];
+    [self.navigationController pushViewController:controller animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

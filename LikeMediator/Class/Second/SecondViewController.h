@@ -10,4 +10,6 @@
 
 @interface SecondViewController : UIViewController
 
+-(id)initWithText:(NSString *)string;
+
 @end

@@ -10,4 +10,6 @@
 
 @interface ThirdViewController : UIViewController
 
+-(id)initWithImage:(UIImage *)image;
+
 @end

@@ -17,6 +17,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.title = @"FirstViewController";
+    
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 50)];
+    [button setTitle:@"second" forState:UIControlStateNormal];
+    [self.view addSubview:button];
+    [button addTarget:self action:@selector(secondTouch:) forControlEvents:UIControlEventTouchUpInside];
+
+}
+
+-(void)secondTouch:(UIButton *)button
+{
+    UIViewController *vc = [[CTMediator sharedInstance] second_viewController:@"1234"];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
